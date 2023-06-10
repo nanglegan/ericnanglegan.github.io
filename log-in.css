@@ -1,0 +1,196 @@
+body{
+    
+    background-color: dodgerblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 60pt;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    margin-left: 20px;
+}
+h2{
+    font-size: 50pt;
+    text-align: center;
+    font-style: italic;
+    color: black;
+        margin-left: 20px;
+}
+h3{
+    font-size: 40pt;
+    text-align: center;
+    font-style: italic;
+    color: black;
+        margin-left: 20px;
+}
+h4{
+    font-size: 30pt;
+    text-align: center;
+    font-style: italic;
+    color: black;
+        margin-left: 20px;
+}
+h5{
+    font-size: 20pt;
+    text-align: center;
+    font-style: italic;
+    color: black;
+        margin-left: 20px;
+}
+
+.container{
+    width: 99%;
+    padding:25px;
+    background-color:yellow;
+    border: 2px;
+    
+}
+form{
+  
+    border:2px solid;
+    color: black;
+}
+input[type = text],input[type = Password]{
+    width: 96%;
+    padding:12px 20px;
+    display: inline-block;
+    box-sizing:border-box;
+    margin:8px;
+    border:2px  solid black;
+    background-color: lightgray;
+    cursor: pointer;
+    
+}
+button[type = submit] {
+    width:96%;
+    margin:10px;
+    padding: 10px;
+    border: 4px black;
+    cursor: pointer;
+    color: black;
+    font-size: 45pt;
+    background-color: blue;
+}
+
+label{
+    font-style: italic;
+    font-size: 20pt;
+    color: black;
+}
+button:hover{
+    opacity: 0.7;
+}
+input:hover{
+    opacity: 0.7;
+}
+ul{
+
+    list-style-type:none;
+    background-color:yellow;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+    
+li{
+
+    float:left;
+    border: 1px solid black;
+}
+
+li a{
+    display: block;
+    color:black;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.active{
+    background-color: red;
+}
+li a:hover:not(.active){
+    background-color: blue;
+    
+}
+table{
+    width: 100%;
+}
+td,th{
+    border:1px solid dodgerblue;
+    text-align:left;
+    padding: 10px;
+    color: black;
+    width:33%;
+}
+tr:nth-child(odd){
+    background-color: gray;
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 25pt;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    
+  }
+  
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .side {
+    flex: 20%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  .img{
+    background-image: url(WIN_20230323_08_09_18_Pro.jpg) ;
+    width:569px;
+  }
+  .image{
+    background-image: url(WIN_20230323_08_10_31_Pro.jpg) ;
+    width:569px;
+  }
+  .imge{
+    background-image: url(WIN_20230322_14_24_00_Pro.jpg) ;
+    width:569px;
+    
+  }
+  .imag{
+    background-image: url(WIN_20230322_14_25_45_Pro.jpg);
+    width:569px;
+  }
+  .i{
+    background-image: url(picture.png);
+    width:700px;
+  }
+  .f{
+    background-image: url(picture2.png);
+    width:700px;
+  }
+
+  .main {
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background:orange;
+  }
+  .footer:hover{
+    opacity: 0.7;
+  }
+  
